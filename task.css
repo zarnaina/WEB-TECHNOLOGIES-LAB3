@@ -1,0 +1,9 @@
+.list-group{
+    background-color:aquamarine;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: black;
+}
+.list-group-item{
+    background-color: aquamarine;
+}
