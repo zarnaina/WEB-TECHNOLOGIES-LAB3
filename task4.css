@@ -1,0 +1,51 @@
+body {
+    background: linear-gradient(135deg, #eef2ff, #f8fafc);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+.cv-header {
+    background: linear-gradient(to right, #0d6efd, #4dabf7);
+    color: white;
+    border-radius: 15px;
+}
+.cv-card {
+    border: none;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.cv-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+.section-title {
+    font-weight: bold;
+    color: #0d6efd;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #e0e7ff;
+    padding-bottom: 5px;
+}
+.skill-badge {
+    background: #e7f1ff;
+    color: #0d6efd;
+    padding: 8px 14px;
+    margin: 5px;
+    font-size: 14px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+.skill-badge:hover {
+    background: #0d6efd;
+    color: white;
+    transform: scale(1.08);
+}
+.edu-item {
+    margin-bottom: 20px;
+}
+
+.edu-item h5 {
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.edu-item small {
+    color: #777;
+}
